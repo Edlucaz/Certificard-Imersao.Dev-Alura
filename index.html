@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="pt-br" >
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Aula 9  - Portfólio</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
-<body>
-<!-- partial:index.partial.html -->
 <body>
   <div class="container">
     <header class="cabecalho">
@@ -18,18 +16,18 @@
         <h3> Professor, biólogo e estudante de programação.</h3>
       </div>
       <div class="tema">
-        <button onclick="mudaTema()"> Alterar Tema </button>
+        <button id="botaoTema" onclick="mudaTema()"> Modo Dark </button>
       </div>
     </header>
     <br>
     <div class="redesSociais">
-      <a href="https://www.linkedin.com/in/lucas-eduardo-rocha-27b968ab/" target="_blank"><img class="proporcao" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
-      <a href="https://github.com/Edlucaz" target="_blank"><img class="proporcao" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a>
-      <a href="https://www.instagram.com/edlucasz/?hl=pt-br" target="_blank"><img class="proporcao" src="https://imagepng.org/wp-content/uploads/2017/08/instagram-icone-icon-1.png"></a>
-      <a href="https://codepen.io/Edlucaz" target="_blank"><img class="proporcao" src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png"></a>
+      <a href="https://www.linkedin.com/in/lucas-eduardo-rocha-27b968ab/" target="_blank"><img class="proporcao" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" id="linkedIn" ></a>
+      <a href="https://github.com/Edlucaz" target="_blank"><img id="gitHub" class="proporcao" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a>
+      <a href="https://www.instagram.com/edlucasz/?hl=pt-br" target="_blank"><img id="insta" class="proporcao" src="https://imagepng.org/wp-content/uploads/2017/08/instagram-icone-icon-1.png"></a>
+      <a href="https://codepen.io/Edlucaz" target="_blank"><img class="proporcao" src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png" id="codepen"></a>
     </div>
     <main class="projetos">
-      <ul class="projetos-titulo"> Projetos IMERSAO.DEV<ul>
+      <ul class="projetos-titulo"> Projetos realizados na IMERSAO.DEV-Alura <ul>
           <li class="projetos-item">
             <p> 🎴 NerdTrunfo </p>
             <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWoBMLw" data-user="Edlucaz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -62,9 +60,6 @@
           </li>
     </main>
   </div>
-</body>
-<!-- partial -->
   <script  src="./script.js"></script>
-
 </body>
 </html>
