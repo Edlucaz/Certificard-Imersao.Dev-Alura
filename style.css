@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 body {
-  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  background: linear-gradient(
+    135deg,
+    #b7a8fc 0,
+    #8a8af1 25%,
+    #486ee5 50%,
+    #0055d9 75%,
+    #0042cf 100%
+  );
   font-family: "Roboto", sans-serif;
 }
 
 .container {
-  background: #ecf4ff;
+  background: #fffafa;
   color: #1c1c1c;
   margin: 64px;
   padding: 64px;
@@ -23,6 +30,7 @@ body {
   border-radius: 460px;
   max-height: 160px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 3px 3px #0e1d2f;
 }
 .titulo {
   margin-left: 16px;
@@ -40,14 +48,23 @@ body {
   font-size: 24px;
   font-weight: 400;
   padding: 8px 16px;
-  background: #ecf4ff;
+  background: #004ed6;
   border-radius: 100px;
+  color: whitesmoke;
+  box-shadow: 3px 3px 3px #0e1d2f;
 }
 .projetos {
   display: flex;
   flex-direction: column;
-  align-items: left;
-  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  align-items: center;
+  background: linear-gradient(
+    320deg,
+    #9a94f5 0,
+    #7881ed 25%,
+    #486ee5 50%,
+    #005ddd 75%,
+    #004ed6 100%
+  );
   margin-top: 32px;
   padding: 32;
   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
@@ -60,12 +77,14 @@ body {
 }
 
 .projetos-titulo {
+  color: #fffafa;
   list-style: none;
   font-weight: 700;
   font-size: 36px;
 }
 
 .projetos-item {
+  color: #fffafa;
   list-style-type: none;
   font-size: 24px;
   font-weight: 400px;
@@ -73,12 +92,12 @@ body {
 }
 
 .projetos-item a {
-  color: #1c1c1c;
+  color: #fffafa;
   text-decoration: none;
 }
 
 .dark {
-  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+  background: linear-gradient(236.85deg, #000000 27.26%, #333439 96.03%);
 }
 .dark .container {
   background: #333439;
